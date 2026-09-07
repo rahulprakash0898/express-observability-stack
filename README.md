@@ -1,4 +1,4 @@
-# 🚀 Node.js Observability & Monitoring Stack (Loki + Prometheus + Grafana)
+# 🚀 Express Observability Stack (Express + Prometheus + Loki + Grafana)
 
 [![Node.js](https://img.shields.io/badge/Node.js-v22-green.svg)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-v5-lightgrey.svg)](https://expressjs.com/)
@@ -56,7 +56,7 @@ A full-stack Node.js Express application integrated with **Prometheus** for metr
 ## 📂 Project Structure
 
 ```
-Loki_Prometheus_Grafana/
+express-observability-stack/
 ├── Dockerfile                   # Node.js Container definition
 ├── index.js                     # Express Server with Prometheus & Loki integration
 ├── util.js                      # Helper utility for workload & error simulation
@@ -84,8 +84,8 @@ Loki_Prometheus_Grafana/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/rahulprakash0898/Loki_Prometheus_Grafana.git
-   cd Loki_Prometheus_Grafana
+   git clone https://github.com/rahulprakash0898/express-observability-stack.git
+   cd express-observability-stack
    ```
 
 2. **Start the monitoring stack:**
